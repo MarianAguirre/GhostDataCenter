@@ -1,0 +1,40 @@
+.presentacion h1 {
+  position: absolute;
+    top: 50%;
+    left: 30%;
+    -webkit-text-stroke: 2px #ffffff;
+    color: black;
+    font-size: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show2;
+
+	animation-range: entry 25% cover 100%;
+	animation-fill-mode: both;
+}
+
+
+@keyframes show2 {
+	0% {
+		opacity: 1;
+	}
+
+  50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+
+	}
+
+}
+

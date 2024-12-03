@@ -1,1 +1,1 @@
-# GhostDataCenter
+# GDC
